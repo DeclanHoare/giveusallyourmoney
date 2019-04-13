@@ -3,7 +3,7 @@
 	"name": "GIVE US ALL YOUR MONEY",
 	"author": "Declan Hoare",
 	"description": "Replaces brand tweets with \"GIVE US ALL YOUR MONEY\"",
-	"version": "1",
+	"version": "2",
 	"icons":
 	{
 		"16": "icons/icon16.png",
