@@ -38,7 +38,7 @@ fetch(chrome.runtime.getURL("data/brands.txt")).then(resp => resp.text().then(fu
 				return;
 			
 			// Old Twitter
-			query(root, ".tweet").forEach(function (tweet)
+			query(root, ".tweet, .QuoteTweet-innerContainer").forEach(function (tweet)
 			{
 				if (tweet.dataset.screenName !== undefined && brands.includes(tweet.dataset.screenName.toLowerCase()))
 					changetweet(tweet.querySelector(".tweet-text"));
